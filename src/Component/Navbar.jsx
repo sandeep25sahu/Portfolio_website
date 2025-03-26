@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/Logo1.png";
+import logo from '../../public/logo.png';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import 'animate.css';
 
