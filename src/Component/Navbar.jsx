@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/Logo.webp";
+import logo from "../assets/Logo1.png";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import 'animate.css';
 
@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className=" flex items-center justify-between py-6 animate__animated animate__fadeIn animate__slow">
     <div className="flex flex-shrink-0 items-center ">
       <a href="/" aria-label="Home">
-        <img src={logo} alt="logo" className="mx-2" width={50} height={50} />
+        <img src={logo} alt="logo" className="mx-2" width={90} height={90} />
       </a>
     </div>
 

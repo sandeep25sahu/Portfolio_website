@@ -1,5 +1,5 @@
 import React from "react";
-import Profilepic from "../assets/Profile.webp";
+import Profilepic from "../assets/Profile.jpg";
 import { HERO_CONTENT } from "../constants";
 import 'animate.css';
 
