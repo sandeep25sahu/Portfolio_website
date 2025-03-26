@@ -13,19 +13,19 @@ const Navbar = () => {
     </div>
 
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-      <a href="" target="_blank" aria-label="LinkedIN">
+      <a href="https://www.linkedin.com/in/sandeep-sahu-a29b2a241/" target="_blank" aria-label="LinkedIN">
         <FaLinkedin />
       </a>
 
-      <a href="" target="_blank" aria-label="GitHub">
+      <a href="https://github.com/sandeep25sahu" target="_blank" aria-label="GitHub">
         <FaGithub />
       </a>
 
-      <a href="" target="_blank" aria-label="Instagram">
+      <a href="https://www.instagram.com/_s_an_deep_s__gallery/?hl=en" target="_blank" aria-label="Instagram">
         <FaInstagram />
       </a>
 
-      <a href="" target="_blank" aria-label="Facebook">
+      <a href="#" target="_blank" aria-label="Facebook">
         <FaFacebook />
       </a>
     </div>
