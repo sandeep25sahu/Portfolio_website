@@ -1,8 +1,8 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.ico";
+import project3 from "../assets/projects/project-3.png";
 
-import project4 from "../assets/projects/project-3.webp";
+import project4 from "../assets/projects/project-4.png";
 
 
 export const HERO_CONTENT = `I am a passionate and eager Frontend Developer with a strong focus on creating robust, scalable, and user-centric web applications. With expertise in frontend technologies like React.js, JavaScript, and various UI libraries such as HeroUI, Bootstrap, and Material-UI, I am dedicated to building dynamic and responsive digital experiences.
