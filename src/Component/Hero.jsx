@@ -30,7 +30,7 @@ const Hero = () => {
             <span className="bg-gradient-to-t from-stone-300 mx-auto to-stone-600 bg-clip-text text-3xl tracking-tighter text-transparent">
               Frontend Developer
             </span>
-            <p className="my-2 max-w-lg py-6 text-xl mx-auto leading-relaxed tracking-tighter animate__animated animate__backInLeft animate__slow">
+            <p className="my-2 p-3 max-w-lg py-6 text-xl mx-auto leading-relaxed tracking-tighter animate__animated animate__backInLeft animate__slow">
               {HERO_CONTENT}
             </p>
             <a
@@ -40,7 +40,7 @@ const Hero = () => {
               download
               className=" bg-white rounded-full p-4 text-sm text-stone-800 mb-10 mx-auto"
             >
-              Downlode Resume
+              Download Resume
             </a>
           </div>
         </div>
