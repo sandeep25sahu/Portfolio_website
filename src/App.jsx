@@ -4,7 +4,7 @@ import Technologies from "./Component/Technologies";
 import Project from "./Component/Project";
 import Experience from "./Component/Experience";
 import Contact from "./Component/Contact";
-function App() {
+const App=()=> {
   return (
     <>
       <div className="overflw-x-hidden text-stone-300 antialiased">
