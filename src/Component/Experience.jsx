@@ -5,7 +5,7 @@ import { EXPERIENCES } from "../constants";
 
 const Experience = () => {
   return (
-    <div className="pb-4 overflow-hidden "> 
+    <div className="pb-4 overflow-hidden ">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -14,7 +14,7 @@ const Experience = () => {
       >
         Experience
       </motion.h2>
-      <div className="overflow-hidden"> 
+      <div className="overflow-hidden">
         {EXPERIENCES.map((experience, index) => (
           <div
             key={index}
@@ -36,7 +36,9 @@ const Experience = () => {
             >
               <h3 className="mb-2 font-semibold">
                 {experience.role} -{" "}
-                <span className="text-sm text-stone-500">{experience.company}</span>
+                <span className="text-sm text-stone-500">
+                  {experience.company}
+                </span>
               </h3>
               <p className="mb-4 text-stone-400">{experience.description}</p>
               <div className="flex flex-wrap">

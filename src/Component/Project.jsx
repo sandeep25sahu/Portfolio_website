@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 
 const Project = () => {
   return (
-    <div className="pb-4 overflow-hidden"> {/* Added overflow-hidden here */}
+    <div className="pb-4 overflow-hidden">
+      {" "}
+      {/* Added overflow-hidden here */}
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -14,9 +16,14 @@ const Project = () => {
       >
         Projects
       </motion.h2>
-      <div className="overflow-hidden"> {/* Added overflow-hidden here */}
+      <div className="overflow-hidden">
+        {" "}
+        {/* Added overflow-hidden here */}
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap justify-center mx-auto bg-stone-800 p-5 md:bg-transparent w-11/12">
+          <div
+            key={index}
+            className="mb-8 flex flex-wrap justify-center mx-auto bg-stone-800 p-5 md:bg-transparent w-11/12"
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}

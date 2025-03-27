@@ -16,11 +16,11 @@ function App() {
         </div>
         <div className="containter mx-auto p-0">
           <Navbar />
-           <Hero />
+          <Hero />
           <Technologies />
-         <Project /> 
+          <Project />
           <Experience />
-          <Contact/> 
+          <Contact />
         </div>
       </div>
     </>

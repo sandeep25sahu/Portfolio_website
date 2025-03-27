@@ -27,19 +27,24 @@ const Technologies = () => {
   return (
     <div className="pb-20">
       <motion.h1
-        whileInView={{opacity:1,y:0}}
-        initial={{opacity:0,y:-100}}
-        transition={{duration:.6}} className="my-20 text-center text-4xl "> Technologies</motion.h1>
-      <motion.div 
-       whileInView={{opacity:1,y:0}}
-       initial={{opacity:0,y:-100}}
-       transition={{duration:.6}}
-       className="flex flex-wrap items-center justify-center gap-4">
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.6 }}
+        className="my-20 text-center text-4xl "
+      >
+        {" "}
+        Technologies
+      </motion.h1>
+      <motion.div
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.6 }}
+        className="flex flex-wrap items-center justify-center gap-4"
+      >
         <motion.div
           initial="initial"
           animate="animate"
           variants={IconVariant(2)}
-          
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>

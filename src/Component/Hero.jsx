@@ -1,9 +1,7 @@
 import React from "react";
 import Profilepic from "../assets/Profile.jpg";
 import { HERO_CONTENT } from "../constants";
-import 'animate.css';
-
-
+import "animate.css";
 
 const Hero = () => {
   return (
@@ -20,13 +18,11 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div 
-       
-        className="w-full lg:w-1/2 animate__animated animate__backInLeft animate__slow">
+        <div className="w-full lg:w-1/2 animate__animated animate__backInLeft animate__slow">
           <div className="flex flex-col items-center lg:items-start mt-10 ">
-            <h2 className="pb-2 text-4xl tracking-tighter lg:text-8xl text-stone-200 mx-auto font-serif" >
+            <h2 className="pb-2 text-4xl tracking-tighter lg:text-8xl text-stone-200 mx-auto font-serif">
               Sandeep Sahu
-            </ h2>
+            </h2>
             <span className="bg-gradient-to-t from-stone-300 mx-auto to-stone-600 bg-clip-text text-3xl tracking-tighter text-transparent">
               Frontend Developer
             </span>
