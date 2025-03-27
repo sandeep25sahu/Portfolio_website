@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useForm, ValidationError } from "@formspree/react";
 import { useState } from "react";
 
-function ContactForm() {
+const ContactForm=()=> {
   const [setsent] = useState(false);
   const [state, handleSubmit] = useForm("moveloyv");
   if (state.succeeded) {
