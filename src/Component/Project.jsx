@@ -2,6 +2,7 @@ import React from "react";
 import { PROJECTS } from "../constants";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import { p } from "framer-motion/client";
 
 const Project = () => {
   return (
@@ -46,11 +47,13 @@ const Project = () => {
             >
               <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
               <p className="mb-4 text-stone-400">{project.description}</p>
+           
+            { project.link ?<a href={project.link} className="text-blue-600">Project link</a>: <p className="text-blue-600">Project not hosted</p> }
               <div className="flex flex-wrap">
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300"
+                    className="mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300 hover:text-white"
                   >
                     {tech}
                   </span>

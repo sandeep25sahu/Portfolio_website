@@ -1,7 +1,8 @@
+import { image, link } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.ico";
 import project3 from "../assets/projects/project-3.png";
-
+import softy from '../assets/projects/Softmart.png'
 import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate and eager Frontend Developer with a strong focus on creating robust, scalable, and user-centric web applications. With expertise in frontend technologies like React.js, JavaScript, and various UI libraries such as HeroUI, Bootstrap, and Material-UI, I am dedicated to building dynamic and responsive digital experiences.
@@ -25,6 +26,7 @@ export const EXPERIENCES = [
     description: `Here I learn Reactjs,MongoDB and Nodejs.`,
     technologies: ["Nodejs", "Reactjs", "mySQL"],
   },
+  
 ];
 
 export const PROJECTS = [
@@ -41,6 +43,23 @@ export const PROJECTS = [
       "NextUI/HeroUI",
       "Machine Learning model",
     ],
+    link:""
+  },
+    {
+    title: "Softify_Mart",
+    image:softy,
+    description:
+      "Softifymart is a responsive e-commerce website for browsing and purchasing digital products. It features product listing, cart management, order confirmation, and an admin panel for managing products and orders.",
+    technologies: [
+   
+      "VueJS",
+      "DaisyUI",
+      "Vue_Router",
+      "Pinia",
+      "Animate2css",
+      
+    ],
+    link:"https://cn-assignment.vercel.app/"
   },
   {
     title: "Dream Residency",
@@ -54,6 +73,7 @@ export const PROJECTS = [
       "Animatecss",
       "Machine Learning",
     ],
+    link:""
   },
   {
     title: "Quiz_Masters",
@@ -61,6 +81,7 @@ export const PROJECTS = [
     description:
       "Built a quiz game where users fetch questions via API, customize the number of questions, and receive a result upon completion. Demonstrated skills in API integration and dynamic content handling.",
     technologies: ["React", "TailwinsCSS", "React-Routers"],
+    link:""
   },
   {
     title: "Portfolio Website",
@@ -68,5 +89,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and experience in attractive manner with a contact form which provides me instant messages from sender.",
     technologies: ["React", "TailwinsCSS", "React-Motion"],
+     link:"https://portfolio-website-lac-seven-69.vercel.app/"
   },
+ 
 ];

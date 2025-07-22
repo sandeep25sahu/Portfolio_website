@@ -10,6 +10,8 @@ import {
   TbBrandMysql,
   TbBrandNodejs,
   TbBrandTailwind,
+  TbBrandVercel,
+  TbBrandVue,
 } from "react-icons/tb";
 const IconVariant = (duration) => ({
   initial: { y: -10 },
@@ -63,6 +65,22 @@ const Technologies = () => {
           variants={IconVariant(4)}
         >
           <TbBrandBootstrap className=" text-7xl  text-blue-400" />
+        </motion.div>
+          <motion.div
+          className="p-4"
+          initial="initial"
+          animate="animate"
+          variants={IconVariant(5)}
+        >
+          <TbBrandVue className=" text-7xl  text-yellow-400" />
+        </motion.div>
+         <motion.div
+          className="p-4"
+          initial="initial"
+          animate="animate"
+          variants={IconVariant(5)}
+        >
+          <TbBrandVercel className=" text-7xl  text-white " />
         </motion.div>
         <motion.div
           className="p-4"
