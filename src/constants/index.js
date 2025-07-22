@@ -89,7 +89,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and experience in attractive manner with a contact form which provides me instant messages from sender.",
     technologies: ["React", "TailwinsCSS", "React-Motion"],
-     link:"https://portfolio-website-lac-seven-69.vercel.app/"
+     link:"https://portfolio-website-rust-nu.vercel.app/"
   },
  
 ];
