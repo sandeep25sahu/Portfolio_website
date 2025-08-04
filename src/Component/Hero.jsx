@@ -13,8 +13,8 @@ const Hero = () => {
               src={Profilepic}
               alt="Profite picture"
               className="border border-stone-900 rounded-3xl"
-              height={650}
-              width={650}
+              height={450}
+              width={450}
             />
           </div>
         </div>
